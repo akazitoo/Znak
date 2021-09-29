@@ -12,8 +12,7 @@ Esse é um repositório que está sendo montado por um grupo de estudantes de Ci
 - [André Barcelar](mailto:albgm@cesar.school),  [Anthony Kevin](mailto:akds@cesar.school),  [João Pedro Duarte](mailto:jpds@cesar.school)
 - [Julia Queiroz](mailto:jqa@cesar.school),  [Maria Luiza Laranjeira](mailto:mlbl@cesar.school),  [Victor Montarroyos](mailto:vpm@cesar.school)
 #### Membros de Design :
-- [Clara Santana](mailto:csgg@cesar.school),  [Luiza Brito](mailto:lcmb@cesar.school),  [Melina Fryer](mailto:mmf@cesar.school)
-[Vitor dos Santos](mailto:vsab@cesar.school)
+- [Clara Santana](mailto:csgg@cesar.school),  [Luiza Brito](mailto:lcmb@cesar.school),  [Melina Fryer](mailto:mmf@cesar.school), [Vitor dos Santos](mailto:vsab@cesar.school)
 
 ---
 ## :gear: :
