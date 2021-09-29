@@ -12,3 +12,6 @@ Esse é um repositório que está sendo montado por um grupo de estudantes de Ci
 #### Membros de design :
 - [Clara Santana](mailto:csgg@cesar.school),  [Luiza Brito](mailto:lcmb@cesar.school),  [Melina Fryer](mailto:mmf@cesar.school)
 - [Vitor dos Santos](mailto:vsab@cesar.school)
+
+---
+## 
