@@ -14,7 +14,7 @@ Esse é um repositório que está sendo montado por um grupo de estudantes de Ci
 - [Vitor dos Santos](mailto:vsab@cesar.school)
 
 ---
-## :wrench: Tecnologias:
+## :wrench: :
 ### Ferramentas:
 - Visual Studio Code
 - Miro
