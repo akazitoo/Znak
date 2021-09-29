@@ -2,6 +2,8 @@
 
 ## 📝 O Projeto
 
+![Projeto](project/Znak.png)
+
 Esse é um repositório que está sendo montado por um grupo de estudantes de Ciência da Computação do segundo período 2021.2 da Cesar School. Nosso grupo Znak, tem como principal objetivo, implementar um sistema eficiente para cantinas de ambientes escolares. Visto que, apresentam diversas dificuldades de organização no pagamento sobre os lanches oferecidos por tal cantina.
 
 <br>
