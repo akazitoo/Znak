@@ -2,4 +2,4 @@
 
 ## 📝 O Projeto
 
-    Esse é um repositório que está sendo desenvolvido por um grupo de estudantes de Ciência da Computação do segundo período da Cesar School, ten
+Esse é um repositório que está sendo desenvolvido por um grupo de estudantes de Ciência da Computação do segundo período da Cesar School, ten
