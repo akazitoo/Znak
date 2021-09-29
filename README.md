@@ -6,12 +6,22 @@ Esse é um repositório que está sendo montado por um grupo de estudantes de Ci
 
 <br>
 
-#### Membros de ciência da computação :
+#### Membros de Ciência da Computação :
 - [André Barcelar](mailto:),  [Anthony Kevin](mailto:akds@cesar.school),  [João Pedro Duarte](mailto:jpds@cesar.school)
-- [Julia Queiroz](mailto:),  [Maria Luiza Laranjeira](mailto:mlbl@cesar.school),  [Victor Montarroyos](mailto:vpm@cesar.school)
-#### Membros de design :
+- [Julia Queiroz](mailto:jqa@cesar.school),  [Maria Luiza Laranjeira](mailto:mlbl@cesar.school),  [Victor Montarroyos](mailto:vpm@cesar.school)
+#### Membros de Design :
 - [Clara Santana](mailto:csgg@cesar.school),  [Luiza Brito](mailto:lcmb@cesar.school),  [Melina Fryer](mailto:mmf@cesar.school)
 - [Vitor dos Santos](mailto:vsab@cesar.school)
 
 ---
-## 
+## Tecnologias:
+### Ferramentas:
+- Visual Studio Code
+- Miro
+- Google Drive
+- Google Docs
+
+<br>
+
+### Linguagens:
+- C
