@@ -17,11 +17,11 @@ Esse é um repositório que está sendo montado por um grupo de estudantes de Ci
 
 ---
 ## :gear: :
-### Ferramentas:
+### Ferramentas :
 - Visual Studio Code
 - Miro
 - Google Drive
 - Google Docs
 
-### Linguagens:
+### Linguagens :
 - C
