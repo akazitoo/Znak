@@ -41,62 +41,79 @@ void append(struct dadosUsers** head_ref, char new_nome[], char new_senha[]) {
   return;
 }
 
-struct dadosUsers search(struct dadosUsers* head, char user[])
+struct dadosUsers* search(struct dadosUsers* head, char user[])
 {
-    // Base case
     if (head == NULL){
       printf("Usuário não existe");
+      return head;
     }
      
-    // If key is present in current node, return true
-    if (strcmp(head->nome, user) != 0)
-        return *head;
+    if (strcmp(head->nome, user) == 0)
+        return head;
  
-    // Recur for remaining list
     return search(head->next, user);
 }
 
-void buy(struct dadosUsers head){
+void buy(struct dadosUsers* n){
+  if(n != NULL){
+    char item[40], comma;
+    float price, p[100];
+    char a[100][40];
+    int i=0, option;
+    time_t t;
+    FILE *ptrproducts;
+    ptrproducts = fopen("produtos.txt", "r"); 
+    while(!(feof(ptrproducts))){
+      fscanf(ptrproducts,"%s %c %f", item, &comma, &price);
+      strcpy(a[i], item);
+      p[i] = price;
+      i++;
+      printf("%d - %s %f\n", i, item, price);
+    }
+    fclose(ptrproducts);
+    printf("Digite o indice do produto desejado: ");
+    scanf("%d", &option);
 
-  char item[40], comma;
-  float price, p[100];
-  const char *a[100];
-  int i=0, option;
-  time_t t;
-  FILE *ptrproducts;
-  ptrproducts = fopen("produtos.txt", "r"); 
-  while(!(feof(ptrproducts))){
-    fscanf(ptrproducts,"%s %c %f", item, &comma, &price);
-    a[i] = item;
-    p[i] = price;
-    i++;
-    printf("%d - %s %f\n", i, item, price);
+    struct purchase* new_node = (struct purchase*)malloc(sizeof(struct purchase));
+    strcpy(new_node->item, a[option-1]);
+    new_node->price = p[option-1];
+    new_node->next = NULL;
+    struct purchase* tmpo = n->root;
+    n->root = new_node;
+    new_node->next = tmpo;
+
+    struct hist* node = (struct hist*)malloc(sizeof(struct hist));
+    strcpy(node->item, a[option-1]);
+    node->price = p[option-1];
+    strcpy(node->time, ctime(&t));
+    node->next = NULL;
+
+    struct hist* tmp = n->head;
+    n->head = node;
+    node->next = tmp;
+    
+    printf("produto comprado com sucesso\n");
+    return;
   }
-  fclose(ptrproducts);
-  printf("Digite o indice do produto desejado: ");
-  scanf("%d", &option);
+  else return;
 
-  struct purchase* new_node = (struct purchase*)malloc(sizeof(struct purchase));
-  strcpy(new_node->item, a[option-1]);
-  new_node->price = p[option-1];
-  new_node->next = NULL;
+}
 
-  struct hist* node = (struct hist*)malloc(sizeof(struct hist));
-  strcpy(node->item, a[option-1]);
-  node->price = p[option-1];
-  strcpy(node->time, ctime(&t));
-  node->next = NULL;
-  
-  printf("produto comprado com sucesso");
-
+void printhist(struct dadosUsers* node){
+  printf("HISTÓRICO\n");
+  while(node->head != NULL){
+    printf("%s %s %f\n", node->head->time, node->head->item, node->head->price);
+    node->head = node->head->next;
+  }
 }
 
 int main(void) {
 
-  char nome[30];
+  char nome[30], option2;
   char senha[30];
   char usuario[30];
   char comma;
+  int option, i = 1;
   
 
   struct dadosUsers* head = NULL;
@@ -112,7 +129,18 @@ int main(void) {
 
   printf("Olá, digite o seu nome de usuário: ");
   scanf("%s", usuario);
-  buy(search(head, usuario));
+  while(i){
+    printf("1 - COMPRAR\n2 - VER HISTÓRICO\n");
+    printf("Digite o número da operação que você deseja realizar: ");
+    scanf("%d", &option);
+    if (option == 1) buy(search(head, usuario));
+    else if (option == 2) printhist(search(head, usuario));
+    printf("Deseja realizar outra operação? s|n ");
+    scanf(" %c", &option2);
+    if (option2 == 'n') i = 0;
+
+  }
+ 
 
 
   fclose(ptruser);
