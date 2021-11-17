@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include<time.h>
-
+//pica
 struct hist {
   char time[50];
   char item[40];
