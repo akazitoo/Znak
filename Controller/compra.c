@@ -97,8 +97,6 @@ int main(void) {
   char senha[30];
   char usuario[30];
   char comma;
-  
-  printf("so um teste");
 
   struct dadosUsers* head = NULL;
 
