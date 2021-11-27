@@ -98,6 +98,7 @@ int main(void) {
   char usuario[30];
   char comma;
   
+  printf("so um teste");
 
   struct dadosUsers* head = NULL;
 
