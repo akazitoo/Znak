@@ -1,0 +1,6 @@
+bolinho 1.00 180 s
+maçã 4.00 40 n
+banana 3.00 50 n
+fini 2.00 93 s
+donut 4.00 20 s
+agua 1.00 100 n

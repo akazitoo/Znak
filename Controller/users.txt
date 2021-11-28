@@ -1,1 +1,14 @@
-
+cantina user 1234
+aluno usuario senha
+pai test helloworld
+cantina funcionario 4567
+pai welcome home
+cantina spider man
+aluno juqueiroz 123456
+aluno jubs 123456
+aluno ju 1234
+aluno malu123 1234567
+pai pai julia
+cantina jubs 1234
+aluno juls 1234
+cantina malus 1234

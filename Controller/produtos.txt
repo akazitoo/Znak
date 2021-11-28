@@ -1,4 +1,0 @@
-item1 , 2.0
-item2 , 3.0
-item3 , 4.0
-item4 , 5.0
