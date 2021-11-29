@@ -26,4 +26,3 @@ Esse é um repositório que está sendo montado por um grupo de estudantes de Ci
 
 ### Linguagens
 - C
-- Python 
