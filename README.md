@@ -17,12 +17,21 @@ Esse é um repositório que está sendo montado por um grupo de estudantes de Ci
 - [Clara Santana](mailto:csgg@cesar.school),  [Luiza Brito](mailto:lcmb@cesar.school),  [Melina Fryer](mailto:mmf@cesar.school), [Vitor dos Santos](mailto:vsab@cesar.school)
 
 ---
+
+## :link: Links
+
+[:link: Link para o protótipo de alta fidelidade.](https://www.figma.com/file/qKDf9xZ6fn1Wnpe4DxKB1G/ZNAK?node-id=124%3A206)
+
+[:link: Link para a apresentação.](https://drive.google.com/file/d/1IDIZQ4TLz9fIZYKCPlDEAwFkqV6L77fF/view)
+
+---
 ## :gear: :
 ### Ferramentas
 - Visual Studio Code
 - Miro
 - Google Drive
 - Google Docs
+- Replit
 
 ### Linguagens
 - C
