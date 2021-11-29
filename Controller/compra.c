@@ -169,7 +169,9 @@ float buy(struct dadosUsers *n)
                         strcpy(strpagamento, "cartao");
 
                 if(negativeSaldo == 0){
-                        saldoRemove(n, p[option - 1]);
+                        if(pagamento == 2){
+                                saldoRemove(n, p[option - 1]);
+                        }
                         
                         struct tm *ptrs;
                         time_t t;
