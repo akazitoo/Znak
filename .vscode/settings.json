@@ -7,7 +7,8 @@
                 "utility": "c",
                 "stdlib.h": "c",
                 "string.h": "c",
-                "unordered_map": "c"
+                "unordered_map": "c",
+                "unity.h": "c"
         },
         "C_Cpp.errorSquiggles": "Disabled",
         "editor.tabSize": 8

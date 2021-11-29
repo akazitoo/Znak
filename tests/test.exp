@@ -1,0 +1,12 @@
+#!/usr/bin/expect -f
+
+spawn ./test.sh
+
+expect -- "Olá você já possui uma conta? digite 's' para sim ou digite 'n' para não - \n"
+send -- 's'
+
+expect -- "Informe o seu nome de usuário: "
+send -- "1"
+
+expect -- "Você é funcionário da cantina? digite 's' para sim ou digite 'n' para não - \n""
+send -- "n"

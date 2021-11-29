@@ -1,5 +1,4 @@
 cantina user 1234
-aluno 1 1
 aluno usuario senha
 pai test helloworld
 cantina funcionario 4567
