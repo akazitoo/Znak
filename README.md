@@ -22,6 +22,8 @@ Esse é um repositório que está sendo montado por um grupo de estudantes de Ci
 
 Para conseguir contribuir com a codificação do nosso projeto é importante, antes de mais nada, que a pessoa tenha C instalado em sua máquina. Ela também deve considerar o download de algum tipo de ferramenta de versionamento para facilitar a compreensão do código. Além de fazer o download do código principal, eles também precisam ter arquivos txt específicos para download (todos os links serão fornecidos), dentro do mesmo diretório. Depois de todas essas etapas, eles devem ser capazes de executar o código sem problemas. No caso de quererem usar testes automáticos, eles teriam que baixar uma plataforma como o UNITY ou Expect para poder executar esses testes.
 
+<br>
+
 ---
 
 ## :link: Links
