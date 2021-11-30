@@ -11,4 +11,7 @@ send -- "1\n"
 expect -- "Você é funcionário da cantina? digite 's' para sim ou digite 'n' para não - "
 send -- "n\n"
 
+expect -- "Informe sua senha: "
+send -- "1\n"
+
 expect -- "%"
