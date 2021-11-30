@@ -1,0 +1,15 @@
+0 maçã 4.00 ju credito
+2 maçã 4.00 ju cartao
+3 banana 3.00 ju credito
+4 maçã 4.00 ju cartao
+5 maçã 4.00 ju cartao
+6 maçã 4.00 ju cartao
+7 maçã 4.00 ju cartao 
+8 fini 2.00 ju cartao 12:40
+9 maçã 4.00 ju credito
+10 maçã 4.00 ju credito
+11 fini 2.00 ju credito
+12 bolinho 1.00 usuario dinheiro
+13 bolinho 1.00 usuario dinheiro
+14 maçã 4.00 ju dinheiro 12:46
+15 bolinho 1.00 usuario dinheiro
